@@ -1,62 +1,79 @@
-# 👋 Hi, I'm Rohith Dharavathu
+# Hi, I'm Rohith Dharavathu 👋
 
-🚀 **Software Product Engineer | Cloud & AI Developer | DevOps Enthusiast**
+**GenAI Engineer · Agentic AI Systems · NLP & LLM Applications**
 
-I’m a Software Product Engineer at **Trianz**, where I work on **cloud migration automation, infrastructure as code, and AI-driven solutions**. My focus lies in building scalable, intelligent systems that bridge the gap between **cloud engineering and applied AI**.
-
----
-
-### 💻 **About Me**
-
-* 🧠 Passionate about **Generative AI**, **Cloud Automation**, and **Infrastructure Engineering**.
-* ☁️ Currently developing **Concierto**, an automation platform streamlining **on-prem to AWS migrations**.
-* ⚙️ Skilled in **Terraform**, **CloudFormation**, **Docker**, **Kubernetes**, and **AWS DevOps tools**.
-* 🤖 Built an **Agentic AI Learning Assistant** using **LLMs and LangChain** at the Trianz AI Hackathon.
-* 🔍 Experienced with **time-series forecasting**, **deep learning**, and **ML model deployment**.
-* 🧩 I enjoy solving technical challenges, optimizing workflows, and designing systems that scale.
+Data Scientist at **HDFC Bank** (Digital Journeys & WhatsApp Banking), Bengaluru.
+I build ML models and LLM pipelines that run at scale — 10M+ monthly active users.
+Before this, I shipped the first production agentic AI system at Trianz, recognised as the top AI innovation across the engineering org.
 
 ---
 
-### 🧰 **Tech Stack**
+## 🔨 What I'm Building
 
-**Languages:** Python | Java | Bash | JavaScript | SQL
-**Cloud & DevOps:** AWS | Terraform | Docker | Kubernetes | GitLab CI/CD | CloudFormation | Linux | IaC
-**AI & ML:** Generative AI | LangChain | LLMs | TensorFlow | Keras | Scikit-learn | NumPy | Pandas | Time-Series Forecasting | Computer Vision
-**Backend & Data:** Flask | FastAPI | Node.js | MySQL | REST APIs | Data Pipelines
-**Frontend:** React.js | HTML | CSS
-**Tools:** Git | VS Code | Jupyter | Docker Compose | AWS CLI
+**[CodeSage AI](https://github.com/rohithdharavathu/Codesage-test)** — GitHub-native codebase intelligence system
+`tree-sitter` AST parsing → `pgvector` semantic index → `NetworkX` knowledge graph → `LangGraph` multi-agent (Planner, Retriever, Analyzer, PR Review) → `FastAPI` + SSE streaming
 
----
+Includes **UDIR (Uncertainty-Driven Iterative Retrieval)** — a novel agentic RAG architecture I designed:
+LLM self-tags uncertain spans via XML → triggers targeted BM25 retrieval for knowledge gaps only → iterates to convergence. No fine-tuning. No logprob access. Differentiates from FLARE, Self-RAG, and IRCoT.
 
-### 🧪 **Highlighted Projects**
+**[JournalRadar](https://frontend-omega-green-75.vercel.app)** — AI-powered academic journal discovery
+Semantic search over 30,000+ Scopus-indexed journals via OpenAI embeddings + pgvector. Scope Fit Checker using Claude API. Full-stack: Next.js 14 → FastAPI → Supabase.
 
-* 🧠 **Agentic AI for Adaptive Learning and Training Agent** – Built a Generative AI system using **LLMs** to personalize employee training and accelerate skill development.
-* 🌡️ **Temperature Forecasting Using DMD + Deep Learning** – Developed a hybrid **LSTM–DMD model** for accurate short- and long-term forecasting.
-* 🩺 **COVID-19 Detection Using Classical Feature Selection** – Created an ensemble **SVDD classifier** using **PSO** and image feature extraction techniques.
+**[NL-to-SQL Engine](https://nlp-sql-virid.vercel.app)** — Natural language to SQL
+Schema-aware chain-of-thought decomposition via Claude API. Handles multi-table joins, aggregations, subqueries. Live and publicly accessible.
 
 ---
 
-### 📚 **Publications**
+## 🧠 Technical Stack
 
-* [An Empirical Comparative Study of Machine Learning Algorithms for Telugu News Classification](https://link.springer.com/chapter/10.1007/978-94-6463-314-6_12) | ICACECS 2023 | Springer
-* [Comparative Analysis of Speech Synthesis Models: Performance Evaluation](https://ieeexplore.ieee.org/document/10395349) | SSCI 2023 | Scopus Springer
-* [Detection of Mental Illness from Social Media Text](https://ieeexplore.ieee.org/document/10725304) | IEEE IIT Mandi ICCCNT 2024
-
----
-
-### 🏆 **Certifications**
-
-* AWS Certified Cloud Practitioner
-* Concierto Migrate – Cloud Migration Certification
-* Generative AI Fundamentals (AWS, Azure, GCP)
-* GDPR and AI Compliance Workshop
+| Domain | Stack |
+|---|---|
+| **AI / LLM** | RAG, Agentic AI, Multi-Agent Orchestration, LLM Fine-tuning (LoRA/QLoRA), Semantic Search, Knowledge Graphs, Propensity Modeling |
+| **Frameworks** | LangChain, LangGraph, FastAPI, Next.js 14, Hugging Face (PEFT, Transformers), Scikit-learn, XGBoost, LightGBM, NetworkX |
+| **LLMs & APIs** | Claude (Anthropic), GPT-4o, OpenAI Embeddings, Llama 3, Gemini |
+| **Vector / DB** | pgvector, Supabase, ChromaDB, FAISS, PostgreSQL, Databricks, DuckDB |
+| **Cloud & DevOps** | AWS (ECS, EC2, S3), Vercel, Railway, Azure DevOps, Docker, Git |
+| **Languages** | Python, SQL, JavaScript |
+| **Tools** | LangSmith, tree-sitter, D3.js, Power BI |
 
 ---
 
-### 🌐 **Connect with Me**
+## 💼 Experience
 
-[LinkedIn](https://www.linkedin.com/in/rohith-dharavathu) | [GitHub](https://github.com/rohithdharavathu) | [Email](mailto:rohith.dharavathu@gmail.com)
+**Data Scientist — Digital Journeys & WhatsApp Banking | HDFC Bank** *(Jan 2026 – Present)*
+- Built XGBoost/LightGBM propensity scoring models over 10M+ MAUs across 44 behavioural segments, powering WhatsApp nudge campaigns with a 3–4% interaction rate lift
+- Engineered end-to-end campaign automation pipeline (Axiom API + SQL + Databricks), saving 500+ engineering hours/year
+- Integrated Claude API for personalised LLM-assisted nudge copy generation
+
+**Software Product Engineer — AI/ML | Trianz** *(Sep 2024 – Dec 2025)*
+- Architected Adaptive LMS: production multi-agent AI system (Planner → Retriever → Assessor) on AWS ECS + Azure DevOps CI/CD
+- Built agentic RAG pipeline with dynamic knowledge graph updates — reduced course completion cycles by 35%
+- Recognised as top internal AI innovation across engineering org; first end-to-end production agentic LLM system at Trianz
 
 ---
 
-⭐ *“Building intelligent, scalable systems that empower automation, insight, and innovation.”*
+## 📄 Publications & Patent
+
+- **Detection of Mental Illness from Social Media Text** — IEEE ICCCNT 2024, IIT Mandi · [IEEE Xplore](https://ieeexplore.ieee.org/document/10725304)
+- **Comparative Study of ML Algorithms for Telugu News Classification** — Springer ICACECS 2023 · [Scopus](https://link.springer.com/chapter/10.1007/978-94-6463-314-6_12)
+- **Comparative Analysis of Speech Synthesis Models** — Springer SSCI 2023 · [Scopus / Web of Science](https://ieeexplore.ieee.org/document/10395349)
+- **Patent:** DevOps Automation using NLP & GenAI — Indian Application No. **202541062271**, Filed Jun 2025
+
+---
+
+## 🎓 Education
+
+**B.Tech, Computer Science Engineering (AI Specialisation)**
+Amrita Vishwa Vidyapeetham · 2020–2024 · CGPA: 7.5/10
+
+---
+
+## 🌐 Connect
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://rohith-portfolio-seven.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohithdharavathu)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rohithdharavathu@gmail.com)
+
+---
+
+*Building AI systems that run in production and actually move a metric.*
